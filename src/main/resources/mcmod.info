@@ -1,0 +1,8 @@
+[{
+  "modid": "backwalk",
+  "name": "Backwards Walk",
+  "description": "Animacao de andar de costas e knockback para tras estilo 1.21. Use /backwalk.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "authorList": []
+}]
