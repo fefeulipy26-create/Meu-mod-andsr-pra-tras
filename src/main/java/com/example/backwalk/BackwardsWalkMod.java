@@ -39,7 +39,7 @@ public class BackwardsWalkMod {
         double speed = Math.sqrt(dx * dx + dz * dz);
         if (speed < MIN_SPEED) return;
 
-        double yaw = Math.toRadians(p.renderYawOffset);
+        double yaw = Math.toRadians(p.rotationYaw);
         double fx = -Math.sin(yaw);
         double fz = Math.cos(yaw);
         double cos = (dx * fx + dz * fz) / speed;
